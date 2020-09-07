@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>{{entry.heading}}</h1>
+
+    {{ entry.mainContent | raw }}
+
+    <main role="main">
+        {% set myEntryQuery = craft.entries()
+            .section('news')
+        %}
+
+        {% set newsEntries = myEntryQuery.all() %}
+
+        <ul>
+        {% for newsEntry in newsEntries %}
+            <li>
+                <a href="{{ newsEntry.url }}">
+                    {{ newsEntry.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </main>
+{% endblock %}

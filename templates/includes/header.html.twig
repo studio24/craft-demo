@@ -1,0 +1,30 @@
+<header>
+
+    {% set myEntryQuery = craft.entries()
+        .section('mainNavigation')
+    %}
+
+    {# Fetch the entries #}
+    {% set navEntries = myEntryQuery.all() %}
+
+    {% include 'includes/language-switcher.html.twig' %}
+
+    <h1>{{ currentSite.name }}</h1>
+    <nav>
+        <ul>
+            {% for navItem in navEntries %}
+            <li>
+                {% set navItemEntry = navItem.menuItemUrl.one() %}
+                {% if navItemEntry is not null %}
+                    <a href="{{ navItemEntry.url }}">
+                {% endif %}
+                    {{ navItem.menuItemName }}
+                {% if navItemEntry is not null %}
+                    </a>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+</header>
