@@ -15,13 +15,14 @@ set('git_tty', true);
 set('http_user', 'www-data');
 
 // Shared files/dirs between deploys
-set('shared_files', ['.env']);
+set('shared_files', ['.env','config/license.key']);
 set('shared_dirs', [
     'web/assets'
+
 ]);
 
 // Writable dirs by web server
-set('writable_dirs', ['web']);
+set('writable_dirs', ['web','config']);
 set('allow_anonymous_stats', false);
 
 // Custom
@@ -56,8 +57,8 @@ task('deploy', [
     'deploy:lock',
     'deploy:release',
     'deploy:update_code',
-//    'deploy:shared',
-//    'deploy:s24:composer',
+    'deploy:shared',
+    'deploy:s24:composer',
     'deploy:writable',
     'deploy:clear_paths',
     'deploy:symlink',
