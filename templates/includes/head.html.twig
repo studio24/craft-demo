@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ craft.app.language }}">
 <head>
-    <title>{{ entry.title}}</title>
+    {% set entity = (category is defined)? category : entry %}
+    <title>{{ entity.title}}</title>
 </head>
 <body>

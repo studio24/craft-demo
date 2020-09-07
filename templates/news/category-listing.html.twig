@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>{{ category.title }}</h1>
+
+    <main role="main">
+        {% set myEntryQuery = craft.entries()
+            .section('news')
+            .relatedTo(category)
+        %}
+
+        {% set newsEntries = myEntryQuery.all() %}
+
+        <ul>
+            {% for newsEntry in newsEntries %}
+                <li>
+                    <a href="{{ newsEntry.url }}">
+                        {{ newsEntry.title }}
+                    </a>,
+                    <em>{{ 'Created on'|t }} {{ newsEntry.dateCreated|date("d / m / Y") }}, {{ 'by'|t }} {{ newsEntry.author }}, {{ 'last updated on'|t }} {{ newsEntry.dateUpdated|date("d / m / Y") }}</em>
+                </li>
+            {% endfor %}
+        </ul>
+    </main>
+{% endblock %}

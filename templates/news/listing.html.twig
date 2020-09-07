@@ -17,7 +17,8 @@
             <li>
                 <a href="{{ newsEntry.url }}">
                     {{ newsEntry.title }}
-                </a>
+                </a>,
+                 <em>{{ 'Created on'|t }} {{ newsEntry.dateCreated|date("d / m / Y") }}, {{ 'by'|t }} {{ newsEntry.author }}, {{ 'last updated on'|t }} {{ newsEntry.dateUpdated|date("d / m / Y") }}</em>
             </li>
         {% endfor %}
         </ul>
