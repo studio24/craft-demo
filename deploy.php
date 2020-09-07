@@ -15,9 +15,9 @@ set('git_tty', true);
 set('http_user', 'www-data');
 
 // Shared files/dirs between deploys
-set('shared_files', ['.env','config/statamic/protect.php','storage/framework/cache/']);
+set('shared_files', ['.env']);
 set('shared_dirs', [
-    'public/assets'
+    'web/assets'
 ]);
 
 // Writable dirs by web server
