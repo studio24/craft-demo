@@ -1,0 +1,79 @@
+field: c4f74c42-05f3-42eb-b5c1-515cbfc3bd13
+fieldLayouts:
+  977a1643-6581-4543-97b2-90f84fdcd88c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c0336324-a9f7-4a16-a016-122f4322896c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fc765937-2602-498d-972e-b64deebf7384
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  c0336324-a9f7-4a16-a016-122f4322896c:
+    contentColumnType: text
+    fieldGroup: null
+    handle: image_heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  fc765937-2602-498d-972e-b64deebf7384:
+    contentColumnType: string
+    fieldGroup: null
+    handle: image_image
+    instructions: ''
+    name: 'Image '
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:97f69270-1dcd-42bc-8e31-957a64a2de6d'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: ''
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:97f69270-1dcd-42bc-8e31-957a64a2de6d'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 3

@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 1b00f440-fb12-45a9-a08b-20fa2c8fc90d
+handle: heading
+instructions: 'Display title'
+name: Heading
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText
