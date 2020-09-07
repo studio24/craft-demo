@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 3398d03a-c8a4-45ee-9c86-8bef77756fb1
+handle: richContent
+instructions: ''
+name: 'Rich content'
+searchable: true
+settings:
+  contentTable: '{{%matrixcontent_richcontent}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

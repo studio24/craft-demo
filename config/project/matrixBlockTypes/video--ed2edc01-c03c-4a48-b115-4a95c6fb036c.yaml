@@ -1,0 +1,28 @@
+field: c4f74c42-05f3-42eb-b5c1-515cbfc3bd13
+fieldLayouts:
+  b6f85387-a33c-4b77-8a1a-4758006b7095:
+    tabs:
+      -
+        fields:
+          81450230-aeab-4139-905d-217aa20941a1:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  81450230-aeab-4139-905d-217aa20941a1:
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: video_url
+    instructions: ''
+    name: URL
+    searchable: true
+    settings:
+      maxLength: '255'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: video
+name: Video
+sortOrder: 2

@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: ae5fcec5-7d16-4256-9a73-3472cb48796e
+handle: menuItemUrl
+instructions: 'Entry to link to'
+name: 'Menu item URL'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:0baf5ba3-9826-4cdd-b4b7-6f3cdf780a3b'
+    - singles
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

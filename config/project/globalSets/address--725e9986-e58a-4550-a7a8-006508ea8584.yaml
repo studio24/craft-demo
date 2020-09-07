@@ -1,0 +1,12 @@
+fieldLayouts:
+  8d0e9e30-5c08-49d1-b7dc-4161dde803de:
+    tabs:
+      -
+        fields:
+          88bbd373-f96a-4fef-a701-14c9ab35e095:
+            required: false
+            sortOrder: 1
+        name: 'Global - address'
+        sortOrder: 1
+handle: address
+name: Address

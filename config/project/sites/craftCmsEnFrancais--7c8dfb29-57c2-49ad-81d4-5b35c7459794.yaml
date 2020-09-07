@@ -1,0 +1,8 @@
+baseUrl: '@web/fr'
+handle: craftCmsEnFrancais
+hasUrls: true
+language: fr
+name: 'Craft CMS en francais'
+primary: false
+siteGroup: 8060cbe4-06e7-4d1d-979b-54bf85cf399c
+sortOrder: 2

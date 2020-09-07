@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: 3398d03a-c8a4-45ee-9c86-8bef77756fb1
+handle: headline
+instructions: ''
+name: Headline
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

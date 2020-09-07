@@ -1,0 +1,18 @@
+contentColumnType: mediumtext
+fieldGroup: ae5fcec5-7d16-4256-9a73-3472cb48796e
+handle: menuItemName
+instructions: 'The label of the menu item'
+name: 'Menu item name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: mediumtext
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

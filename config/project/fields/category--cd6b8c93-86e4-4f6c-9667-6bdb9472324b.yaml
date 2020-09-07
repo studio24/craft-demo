@@ -1,0 +1,22 @@
+contentColumnType: string
+fieldGroup: 3398d03a-c8a4-45ee-9c86-8bef77756fb1
+handle: category
+instructions: ''
+name: Category
+searchable: true
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: ''
+  branchLimit: '1'
+  limit: null
+  localizeRelations: ''
+  selectionLabel: ''
+  source: 'group:5dd03a02-357f-4ee6-97c1-6daf545ff1b6'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: ''
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

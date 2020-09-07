@@ -1,0 +1,17 @@
+contentColumnType: text
+fieldGroup: f1df11e8-8270-4d55-9483-4b68506d7ebc
+handle: address
+instructions: ''
+name: Address
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\PlainText

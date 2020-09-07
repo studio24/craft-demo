@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>{{entry.title}}</h1>
+
+    <main role="main">
+        {{ entry.mainContent|raw }}
+    </main>
+{% endblock %}

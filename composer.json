@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^3.4.25",
+    "craftcms/redactor": "2.7.4",
     "experience/smartdown": "3.0.1",
     "vlucas/phpdotenv": "^3.4.0"
   },
