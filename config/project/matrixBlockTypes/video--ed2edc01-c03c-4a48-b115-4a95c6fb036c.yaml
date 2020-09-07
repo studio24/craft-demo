@@ -3,10 +3,25 @@ fieldLayouts:
   b6f85387-a33c-4b77-8a1a-4758006b7095:
     tabs:
       -
-        fields:
-          81450230-aeab-4139-905d-217aa20941a1:
+        elements:
+          -
+            fieldUid: d6059474-946d-4911-b032-382f560a900f
+            instructions: null
+            label: null
             required: false
-            sortOrder: 1
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 81450230-aeab-4139-905d-217aa20941a1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -21,8 +36,27 @@ fields:
       maxLength: '255'
       placeholder: ''
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\fields\Url
+  d6059474-946d-4911-b032-382f560a900f:
+    contentColumnType: text
+    fieldGroup: null
+    handle: video_heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
 handle: video
-name: Video
+name: 'YouTube Video'
 sortOrder: 2

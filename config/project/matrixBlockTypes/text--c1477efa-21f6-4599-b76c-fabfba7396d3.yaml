@@ -3,13 +3,25 @@ fieldLayouts:
   a89277c4-bf45-4ad1-a1bb-63100b75fd4d:
     tabs:
       -
-        fields:
-          8a8d78ed-5638-4b83-8e2b-4883049b13bf:
+        elements:
+          -
+            fieldUid: e30d638f-c610-4c60-a73f-b7ce2edfd43b
+            instructions: null
+            label: null
             required: false
-            sortOrder: 2
-          e30d638f-c610-4c60-a73f-b7ce2edfd43b:
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8a8d78ed-5638-4b83-8e2b-4883049b13bf
+            instructions: null
+            label: null
             required: false
-            sortOrder: 1
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -21,16 +33,26 @@ fields:
     name: Content
     searchable: true
     settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: ''
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
+    type: craft\redactor\Field
   e30d638f-c610-4c60-a73f-b7ce2edfd43b:
     contentColumnType: text
     fieldGroup: null
@@ -46,6 +68,7 @@ fields:
       initialRows: '4'
       multiline: ''
       placeholder: ''
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText

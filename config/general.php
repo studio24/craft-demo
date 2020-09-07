@@ -13,6 +13,10 @@ use craft\helpers\App;
 return [
     // Global settings
     '*' => [
+        'aliases' => [
+            '@rootUrl' => getenv('ROOT_URL'),
+        ],
+
         // Default Week Start Day (0 = Sunday, 1 = Monday...)
         'defaultWeekStartDay' => 1,
 

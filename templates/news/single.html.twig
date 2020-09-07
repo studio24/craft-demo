@@ -20,7 +20,14 @@
                 <h3>{{ layout.text_title }}</h3>
                 <p>{{ layout.text_content }}</p>
             {% elseif layout.type == 'video' %}
-                <p>{{ layout.video_url }}</p>
+                <h3>{{ layout.video_heading }}</h3>
+                <iframe width="560" height="315" src="{{ layout.video_url }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {%  elseif layout.type == 'image' %}
+                <h3>{{ layout.image_heading }}</h3>
+                {% set image = layout.image_image.one() %}
+                {% if image %}
+                <img style="max-width:100%;height: auto;" src="{{ image.url }}" />
+                {% endif %}
             {% endif %}
         {% endfor %}
     </main>
