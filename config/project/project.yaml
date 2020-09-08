@@ -1,9 +1,55 @@
-dateModified: 1599484915
+dateModified: 1599553622
 email:
   fromEmail: marie@studio24.net
   fromName: 'Craft CMS test'
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
+  knock-knock:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.1
+    settings:
+      allowIps: ''
+      checkInvalidLogins: ''
+      denyIps: ''
+      enabled: '1'
+      forcedRedirect: null
+      invalidLoginWindowDuration: '3600'
+      loginPath: ''
+      maxInvalidLogins: '10'
+      password: w3ccraft24
+      protectedUrls: ''
+      siteSettings:
+        __assoc__:
+          -
+            - default
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - ''
+                -
+                  - password
+                  - ''
+                -
+                  - template
+                  - ''
+          -
+            - craftCmsEnFrancais
+            -
+              __assoc__:
+                -
+                  - enabled
+                  - ''
+                -
+                  - password
+                  - ''
+                -
+                  - template
+                  - ''
+      template: ''
+      unprotectedUrls: ''
+      useRemoteIp: ''
   redactor:
     edition: standard
     enabled: true
