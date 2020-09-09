@@ -7,15 +7,16 @@ searchable: true
 settings:
   allowLimit: false
   allowMultipleSources: false
-  allowSelfRelations: ''
-  branchLimit: '1'
+  allowSelfRelations: false
+  branchLimit: ''
   limit: null
-  localizeRelations: ''
-  selectionLabel: ''
+  localizeRelations: false
+  selectionLabel: 'Add categories'
+  showSiteMenu: true
   source: 'group:5dd03a02-357f-4ee6-97c1-6daf545ff1b6'
   sources: '*'
   targetSiteId: null
-  validateRelatedElements: ''
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site
