@@ -51,7 +51,7 @@ fields:
       showUnpermittedVolumes: false
       uiMode: normal
     translationKeyFormat: null
-    translationMethod: none
+    translationMethod: site
     type: craft\redactor\Field
   e30d638f-c610-4c60-a73f-b7ce2edfd43b:
     contentColumnType: text
