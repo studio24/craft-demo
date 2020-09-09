@@ -19,7 +19,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: news/listing.html.twig
-    uriFormat: fr/news
+    uriFormat: news
   f43d34ee-b020-4342-a0cb-230c2932c0b3:
     enabledByDefault: true
     hasUrls: true
