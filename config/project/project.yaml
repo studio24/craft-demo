@@ -48,7 +48,7 @@ plugins:
                   - template
                   - ''
       template: ''
-      unprotectedUrls: ''
+      unprotectedUrls: 'api'
       useRemoteIp: ''
   redactor:
     edition: standard
